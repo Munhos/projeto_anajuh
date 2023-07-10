@@ -66,11 +66,11 @@
 }
 
 #RadioSegBloco2:checked ~ #LinkSegBloco{
-    margin-left: calc(-100%/3);
+    margin-left: calc(-100%);
     transition: 1s;
 }
 
 #RadioSegBloco3:checked ~ #LinkSegBloco{
-    margin-left: calc((-100%/3)*2);
+    margin-left: calc(-200%);
     transition: 1s;
 }
