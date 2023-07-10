@@ -1,5 +1,6 @@
 #ContainerSegBloco{
     width: 100%;
+    max-width: 1920px;
     height: 800px;
     margin: auto;
 
@@ -7,6 +8,8 @@
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+
 
 #ContainerCarrosselSegBloco{
     position: relative;
@@ -41,7 +44,17 @@
 #ContainerImagensSegBloco{
     display: flex;
     overflow: hidden;
+
 }
+
+#ContainerImagensSegBloco > div{
+    width: 5760px;
+    display: flex;
+
+}
+
+
+
 
 #ContainerImagensSegBloco input{
     display: none;
@@ -53,11 +66,11 @@
 }
 
 #RadioSegBloco2:checked ~ #LinkSegBloco{
-    margin-left: calc(-100%);
+    margin-left: calc(-100%/3);
     transition: 1s;
 }
 
 #RadioSegBloco3:checked ~ #LinkSegBloco{
-    margin-left: calc(-200%);
+    margin-left: calc((-100%/3)*2);
     transition: 1s;
 }
