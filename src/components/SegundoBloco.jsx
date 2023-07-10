@@ -17,13 +17,14 @@ const SegundoBloco = () => {
           </div>
 
           <div id="ContainerImagensSegBloco">
-            <input type="radio" name="RadioSegBloco" id="RadioSegBloco1" className="InputRadioSegBloco" defaultChecked/>
-            <input type="radio" name="RadioSegBloco" id="RadioSegBloco2" className="InputRadioSegBloco" />
-            <input type="radio" name="RadioSegBloco" id="RadioSegBloco3" className="InputRadioSegBloco" />
-
-            <a href="#" id='LinkSegBloco'><img src={FundoSite1} alt="FundoSite1" id='Img1SegBloco'/></a>
-            <a href="#"><img src={FundoSite2} alt="FundoSite2" /></a>
-            <a href="#"><img src={FundoSite3} alt="FundoSite3" /></a>
+            <div>
+              <input type="radio" name="RadioSegBloco" id="RadioSegBloco1" className="InputRadioSegBloco" defaultChecked/>
+              <input type="radio" name="RadioSegBloco" id="RadioSegBloco2" className="InputRadioSegBloco" />
+              <input type="radio" name="RadioSegBloco" id="RadioSegBloco3" className="InputRadioSegBloco" />
+              <a href="#" id='LinkSegBloco'><img src={FundoSite1} alt="FundoSite1" id='Img1SegBloco'className='ImagensSecBloco'/></a>
+              <a href="#"><img src={FundoSite2} alt="FundoSite2" className='ImagensSecBloco'/></a>
+              <a href="#"><img src={FundoSite3} alt="FundoSite3" className='ImagensSecBloco'/></a>
+            </div>
           </div>
         </div>
         
